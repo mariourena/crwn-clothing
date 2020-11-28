@@ -9,6 +9,7 @@ const Header = props => (
             <Logo className="logo" />
         </Link>
         <nav className="options">
+            <Link to="/signin" className="option">Sign In</Link>
             <Link to="/shop" className="option">Shop</Link>
             <Link to="/shop" className="option">Contact</Link>
         </nav>
