@@ -21,6 +21,10 @@
     .option {
       cursor: pointer;
       padding: 10px 15px;
+
+      small {
+        color: rgb(255, 1, 128);
+      }
     }
   }
 }

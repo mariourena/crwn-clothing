@@ -59,7 +59,7 @@ class SignUp extends React.Component {
                         value={email}
                         handleChange={this.handleChange}    
                         required
-                    >email</FormInput>
+                    >Email</FormInput>
                     <FormInput
                         type="password"
                         name="password"
