@@ -14,10 +14,9 @@ const Header = ({ currentUser }) => (
             <Link to="/shop" className="option">Contact</Link>
             {
                 currentUser ?
-                <a className="option" onClick={() => auth.signOut()}>Sign Out</a>
+                <a className="option" href="#sign-out" onClick={() => auth.signOut()}>Sign Out <small>({currentUser.displayName})</small></a>
                 : <Link to="/signin" className="option">Sign In</Link>
             }
-            
         </nav>
     </header>
 );
